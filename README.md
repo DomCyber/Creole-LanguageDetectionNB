@@ -4,6 +4,9 @@ LangDetectNB
 This is a simple but powerful language classification model built using Multinomial Naive Bayes. It takes in a text input and predicts the language with 99% accuracy based on a dataset of multilingual text samples. The model is trained using a Bag of Words (BoW) approach with CountVectorizer to convert text into numerical form.
 
 How It Works
+**CreoleGen4.py** - GENERATES THE CREOLE DATASET in THE FORM OF A CSV. I HAD TO GENERATE MY OWN CREOLE DATASET AS YOU CAN'T FIND ANY ONLINE. THIS CREATES A DATASET OF CREOLE LANGUAGES AND THEIR MAPPING
+
+**CREOLEIDENTIFIER.ipnb**
 Cleans & Preprocesses Text – Removes symbols, converts to lowercase, and tokenizes.
 
 Vectorizes Using BoW – Transforms text into a numerical format for better learning.
